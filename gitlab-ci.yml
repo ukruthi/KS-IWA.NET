@@ -1,0 +1,12 @@
+include:
+  - local: '/devops-integrations/gitlab/debricked-sca.yml'
+  - local: '/devops-integrations/gitlab/fortify-dast-scancentral.yml'
+  
+stages:
+  - test
+
+debricked-sca:
+  when: manual
+
+fortify-dast:
+  when: manual
