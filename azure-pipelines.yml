@@ -190,7 +190,7 @@ stages:
   - job: UploadAndScan
     displayName: "Upload and Scan"
     steps:
-     - task: UseDotNet@2
+    - task: UseDotNet@2
       displayName: 'Set DotNet environment'
       inputs:
         version: '6.0.202'
