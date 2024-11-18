@@ -65,8 +65,8 @@ jobs:
           #SETUP_ACTION: https://scm.my.org/shared-repos/fcli-actions/setup.yaml
           #SETUP_EXTRA_OPTS: --on-unsigned=ignore
           C_CLIENT_VERSION: 24.2
-          PACKAGE_EXTRA_OPTS: -oss -bt msbuild
-          FOD_SAST_SCAN_EXTRA_OPTS:
+          PACKAGE_EXTRA_OPTS: -oss -bt none
+          # FOD_SAST_SCAN_EXTRA_OPTS:
           DO_WAIT: true
           DO_POLICY_CHECK: true
           #POLICY_CHECK_ACTION: https://scm.my.org/shared-repos/fcli-actions/check-policy.yaml
