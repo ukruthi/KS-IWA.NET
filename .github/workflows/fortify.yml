@@ -48,7 +48,7 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v4  
       - name: Run Fortify on Demand SAST & SCA Scan
-        uses: fortify/github-action@v2.9.1
+        uses: fortify/github-action@v2.7.1
         with:
           sast-scan: true
           debricked-sca-scan: true
