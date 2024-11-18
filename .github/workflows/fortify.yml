@@ -63,7 +63,7 @@ jobs:
           FOD_RELEASE: GHMyApp:GHMyRelease
           DO_SETUP: true
           #SETUP_ACTION: https://scm.my.org/shared-repos/fcli-actions/setup.yaml
-          SETUP_EXTRA_OPTS: --on-unsigned=ignore
+          # SETUP_EXTRA_OPTS: --on-unsigned=ignore
           C_CLIENT_VERSION: 24.2
           PACKAGE_EXTRA_OPTS: -oss -bt none
           # FOD_SAST_SCAN_EXTRA_OPTS:
