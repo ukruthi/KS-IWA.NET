@@ -60,10 +60,10 @@ jobs:
           # FOD_CLIENT_ID: ${{secrets.FOD_CLIENT_ID}}
           # FOD_CLIENT_SECRET: ${{secrets.FOD_CLIENT_SECRET}}
           FOD_LOGIN_EXTRA_OPTS: --socket-timeout=60s
-          FOD_RELEASE: GHMyApp1:GHMyRelease1
+          #FOD_RELEASE: GHMyApp1:GHMyRelease1
           DO_SETUP: true
           #SETUP_ACTION: https://scm.my.org/shared-repos/fcli-actions/setup.yaml
-          SETUP_EXTRA_OPTS: --scan-types=sast
+          #SETUP_EXTRA_OPTS: --scan-types=sast
           C_CLIENT_VERSION: 24.2
           PACKAGE_EXTRA_OPTS: -oss -bt none
           # FOD_SAST_SCAN_EXTRA_OPTS:
